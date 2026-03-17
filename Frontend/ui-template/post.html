@@ -1,0 +1,40 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Post Donation - Donation App</title>
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="assets/font/css/all.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Donation App</a>
+			</div>
+		</nav>
+
+		<main class="container py-4">
+			<h1>Submit Donasi</h1>
+			<div id="alert-placeholder"></div>
+			<form id="postForm" class="mt-3">
+				<div class="mb-3">
+					<label class="form-label">Nama</label>
+					<input id="name" class="form-control" required />
+				</div>
+				<div class="mb-3">
+					<label class="form-label">Email</label>
+					<input id="email" type="email" class="form-control" required />
+				</div>
+				<div class="mb-3">
+					<label class="form-label">Jumlah (Rp)</label>
+					<input id="amount" type="number" class="form-control" required />
+				</div>
+				<button class="btn btn-primary" type="submit">Kirim Donasi</button>
+			</form>
+		</main>
+	</body>
+</html>
